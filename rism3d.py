@@ -109,8 +109,8 @@ def main():
     parser.add_argument('--coord_in',help='Input coordinate file', default=None)
 
     parser.add_argument('--pdb_out',help='Output pdb name',default=None)
-    parser.add_argument('--water_model',help='Water Model (cSPCE/cTIP3P)',default='cTIP3P')
-    parser.add_argument('--dieps',help='Dielectric Constant (default = 778.44)',default=78.44)
+    parser.add_argument('--water_model',help='Water Model (cSPCE/cTIP3P) (default = cTIP3P)',default='cTIP3P')
+    parser.add_argument('--dieps',help='Dielectric Constant (default = 78.44)',default=78.44)
     parser.add_argument('--n',help='Number of Cores (default = 1)',default=1)
     args = parser.parse_args()
     rism3d(**vars(args))
