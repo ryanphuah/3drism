@@ -13,13 +13,13 @@
       --coord_in COORD_IN   Input coordinate file
       --pdb_out PDB_OUT     Output pdb name
       --water_model WATER_MODEL
-                            Water Model (cSPCE/cTIP3P)
+                            Water Model (cSPCE/cTIP3P) (default = cTIP3P)
       --dieps DIEPS         Dielectric Constant (default = 78.44)
       --n N                 Number of Cores (default = 1)
 </details>
 
-1. rism3d.py takes in either PDB or SDF file formats. Topology and coordinate files can be specified, else it will be generated from provided input files.
+This repository is the code for running 3D RISM on a given PDB/SDF file and subsequent water placement using the Placevent algorithm. 
 
-2. Placevent is used to carry out water placement using oxygen density distribution file from 3D RISM
+By default, code takes in PDB/SDF file and generates parameter and coordinate files using pdb4amber. 1D RISM is done on the specified water model before 3D RISM is run on the protein and solvent.
 
-3. Output files include solute free energy denisty file (exchem.mol.1.dx)
+Solute free energy density files are also output.
