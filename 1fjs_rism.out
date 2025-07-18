@@ -1,0 +1,1230 @@
+Reading parm file (1fjs_tleapfile.prmtop)
+title:
+default_name                                                                    
+	mm_options:  cut=1.000000e+19
+	mm_options:  rism=1
+	mm_options:  ntpr_rism=1
+	mm_options:  xvvfile=cTIP3P.xvv
+	mm_options:  guvfile=g
+	mm_options:  exchemfile=exchem
+	mm_options:  molReconstruct=1
+	mm_options:  volfmt=dx
+	mm_options:  rst=1fjs_tleapfile.rst7
+	mm_options:  closure=kh,pse2,pse3
+	mm_options:  closureOrder=1
+	mm_options:  buffer=48
+	mm_options:  solvcut=-1
+	mm_options:  grdspcx=0.5
+	mm_options:  grdspcy=0.5
+	mm_options:  grdspcz=0.5
+	mm_options:  solvboxx=0
+	mm_options:  solvboxy=0
+	mm_options:  solvboxz=0
+	mm_options:  ngx=0
+	mm_options:  ngy=0
+	mm_options:  ngz=0
+	mm_options:  stoponfail=1
+	mm_options:  tolerance=0.0001,1e-06
+	mm_options:  mdiis_del=0.7
+	mm_options:  mdiis_restart=10
+	mm_options:  mdiis_nvec=5
+	mm_options:  mdiis_method=2
+	mm_options:  maxstep=10000
+	mm_options:  npropagate=5
+	mm_options:  centering=1
+	mm_options:  zerofrc=1
+	mm_options:  apply_rism_force=0
+	mm_options:  polarDecomp=0
+	mm_options:  entropicDecomp=0
+	mm_options:  gfCorrection=0
+	mm_options:  pcplusCorrection=0
+	mm_options:  ntwrism=1
+	mm_options:  verbose=2
+	mm_options:  progress=1
+	mm_options:  asympCorr=1
+	mm_options:  selftest=0
+	mm_options:  saveprogress=0
+	mm_options:  uccoeff=0,0,0,0
+	mm_options:  treeDCF=1
+	mm_options:  treeTCF=1
+	mm_options:  treeCoulomb=0
+	mm_options:  treeDCFMAC=0.1
+	mm_options:  treeTCFMAC=0.1
+	mm_options:  treeCoulombMAC=0.1
+	mm_options:  treeDCFOrder=2
+	mm_options:  treeTCFOrder=2
+	mm_options:  treeCoulombOrder=2
+	mm_options:  treeDCFN0=500
+	mm_options:  treeTCFN0=500
+	mm_options:  treeCoulombN0=500
+	mm_options:  asympKSpaceTolerance=-1
+	mm_options:  chargeSmear=1
+	mm_options:  ljTolerance=-1
+	mm_options:  biasPotential=0
+|solutePotentialEnergy                    [kcal/mol]                Total                   LJ              Coulomb                 Bond                Angle             Dihedral               H-Bond                LJ-14           Coulomb-14           Restraints              3D-RISM
+|rism_excessChemicalPotential             [kcal/mol]                Total         ExcChemPot_O        ExcChemPot_H1
+|rism_solventPotentialEnergy              [kcal/mol]                Total       UV_potential_O      UV_potential_H1
+|rism_partialMolarVolume                  [A^3]                       PMV
+|rism_totalParticlesBox                   [#]                                       TotalNum_O          TotalNum_H1
+|rism_totalChargeBox                      [e]                       Total           TotalChg_O          TotalChg_H1
+|rism_excessParticlesBox                  [#]                                          ExNum_O             ExNum_H1
+|rism_excessChargeBox                     [e]                       Total              ExChg_O             ExChg_H1
+|rism_excessParticles                     [#]                                          ExNum_O             ExNum_H1
+|rism_excessCharge                        [e]                       Total              ExChg_O             ExChg_H1
+|rism_KirkwoodBuff                        [A^3]                                           KB_O                KB_H1
+|rism_DCFintegral                         [A^3]                                         DCFI_O              DCFI_H1
+
+Processing restart file: 1fjs_tleapfile.rst7
+no velocities were found
+
+Running MME
+|FULL RISM!!!
+|Setting solvent box from buffer.
+||Setting solvation box to
+|grid size:        324 X        320 X        288
+|box size [A]:     162.000 X    160.000 X    144.000
+|grid spacing [A]:      0.500 X      0.500 X      0.500
+|effective buffer [A]:    48.371,      53.891,      49.367
+|Setting Lennard-Jones cutoff to fit inside solvent box :     48.371
+|Switching to KH closure
+|Using KH closure
+ Step=    1     Resid= 0.915         IS=  1
+ Step=    2     Resid= 0.333         IS=  2
+ Step=    3     Resid= 0.213         IS=  3
+ Step=    4     Resid= 0.131         IS=  4
+ Step=    5     Resid= 0.100         IS=  5
+ Step=    6     Resid= 7.044E-02     IS=  5
+ Step=    7     Resid= 5.620E-02     IS=  5
+ Step=    8     Resid= 4.739E-02     IS=  5
+ Step=    9     Resid= 3.987E-02     IS=  5
+ Step=   10     Resid= 3.400E-02     IS=  5
+ Step=   11     Resid= 2.922E-02     IS=  5
+ Step=   12     Resid= 2.498E-02     IS=  5
+ Step=   13     Resid= 2.191E-02     IS=  5
+ Step=   14     Resid= 1.931E-02     IS=  5
+ Step=   15     Resid= 1.730E-02     IS=  5
+ Step=   16     Resid= 1.555E-02     IS=  5
+ Step=   17     Resid= 1.416E-02     IS=  5
+ Step=   18     Resid= 1.284E-02     IS=  5
+ Step=   19     Resid= 1.174E-02     IS=  5
+ Step=   20     Resid= 1.088E-02     IS=  5
+ Step=   21     Resid= 1.018E-02     IS=  5
+ Step=   22     Resid= 9.588E-03     IS=  5
+ Step=   23     Resid= 9.126E-03     IS=  5
+ Step=   24     Resid= 8.737E-03     IS=  5
+ Step=   25     Resid= 8.416E-03     IS=  5
+ Step=   26     Resid= 8.123E-03     IS=  5
+ Step=   27     Resid= 7.849E-03     IS=  5
+ Step=   28     Resid= 7.588E-03     IS=  5
+ Step=   29     Resid= 7.345E-03     IS=  5
+ Step=   30     Resid= 7.126E-03     IS=  5
+ Step=   31     Resid= 6.928E-03     IS=  5
+ Step=   32     Resid= 6.739E-03     IS=  5
+ Step=   33     Resid= 6.550E-03     IS=  5
+ Step=   34     Resid= 6.357E-03     IS=  5
+ Step=   35     Resid= 6.147E-03     IS=  5
+ Step=   36     Resid= 5.929E-03     IS=  5
+ Step=   37     Resid= 5.680E-03     IS=  5
+ Step=   38     Resid= 5.426E-03     IS=  5
+ Step=   39     Resid= 5.170E-03     IS=  5
+ Step=   40     Resid= 4.931E-03     IS=  5
+ Step=   41     Resid= 4.717E-03     IS=  5
+ Step=   42     Resid= 4.544E-03     IS=  5
+ Step=   43     Resid= 4.380E-03     IS=  5
+ Step=   44     Resid= 4.246E-03     IS=  5
+ Step=   45     Resid= 4.128E-03     IS=  5
+ Step=   46     Resid= 4.022E-03     IS=  5
+ Step=   47     Resid= 3.927E-03     IS=  5
+ Step=   48     Resid= 3.847E-03     IS=  5
+ Step=   49     Resid= 3.768E-03     IS=  5
+ Step=   50     Resid= 3.702E-03     IS=  5
+ Step=   51     Resid= 3.645E-03     IS=  5
+ Step=   52     Resid= 3.594E-03     IS=  5
+ Step=   53     Resid= 3.552E-03     IS=  5
+ Step=   54     Resid= 3.520E-03     IS=  5
+ Step=   55     Resid= 3.487E-03     IS=  5
+ Step=   56     Resid= 3.458E-03     IS=  5
+ Step=   57     Resid= 3.428E-03     IS=  5
+ Step=   58     Resid= 3.395E-03     IS=  5
+ Step=   59     Resid= 3.356E-03     IS=  5
+ Step=   60     Resid= 3.312E-03     IS=  5
+ Step=   61     Resid= 3.256E-03     IS=  5
+ Step=   62     Resid= 3.194E-03     IS=  5
+ Step=   63     Resid= 3.125E-03     IS=  5
+ Step=   64     Resid= 3.047E-03     IS=  5
+ Step=   65     Resid= 2.969E-03     IS=  5
+ Step=   66     Resid= 2.887E-03     IS=  5
+ Step=   67     Resid= 2.793E-03     IS=  5
+ Step=   68     Resid= 2.701E-03     IS=  5
+ Step=   69     Resid= 2.609E-03     IS=  5
+ Step=   70     Resid= 2.511E-03     IS=  5
+ Step=   71     Resid= 2.427E-03     IS=  5
+ Step=   72     Resid= 2.346E-03     IS=  5
+ Step=   73     Resid= 2.265E-03     IS=  5
+ Step=   74     Resid= 2.196E-03     IS=  5
+ Step=   75     Resid= 2.137E-03     IS=  5
+ Step=   76     Resid= 2.079E-03     IS=  5
+ Step=   77     Resid= 2.035E-03     IS=  5
+ Step=   78     Resid= 1.994E-03     IS=  5
+ Step=   79     Resid= 1.954E-03     IS=  5
+ Step=   80     Resid= 1.919E-03     IS=  5
+ Step=   81     Resid= 1.886E-03     IS=  5
+ Step=   82     Resid= 1.852E-03     IS=  5
+ Step=   83     Resid= 1.825E-03     IS=  5
+ Step=   84     Resid= 1.798E-03     IS=  5
+ Step=   85     Resid= 1.772E-03     IS=  5
+ Step=   86     Resid= 1.752E-03     IS=  5
+ Step=   87     Resid= 1.733E-03     IS=  5
+ Step=   88     Resid= 1.715E-03     IS=  5
+ Step=   89     Resid= 1.702E-03     IS=  5
+ Step=   90     Resid= 1.690E-03     IS=  5
+ Step=   91     Resid= 1.677E-03     IS=  5
+ Step=   92     Resid= 1.666E-03     IS=  5
+ Step=   93     Resid= 1.655E-03     IS=  5
+ Step=   94     Resid= 1.643E-03     IS=  5
+ Step=   95     Resid= 1.632E-03     IS=  5
+ Step=   96     Resid= 1.620E-03     IS=  5
+ Step=   97     Resid= 1.608E-03     IS=  5
+ Step=   98     Resid= 1.596E-03     IS=  5
+ Step=   99     Resid= 1.584E-03     IS=  5
+ Step=  100     Resid= 1.571E-03     IS=  5
+ Step=  101     Resid= 1.560E-03     IS=  5
+ Step=  102     Resid= 1.546E-03     IS=  5
+ Step=  103     Resid= 1.532E-03     IS=  5
+ Step=  104     Resid= 1.519E-03     IS=  5
+ Step=  105     Resid= 1.505E-03     IS=  5
+ Step=  106     Resid= 1.489E-03     IS=  5
+ Step=  107     Resid= 1.476E-03     IS=  5
+ Step=  108     Resid= 1.463E-03     IS=  5
+ Step=  109     Resid= 1.450E-03     IS=  5
+ Step=  110     Resid= 1.439E-03     IS=  5
+ Step=  111     Resid= 1.430E-03     IS=  5
+ Step=  112     Resid= 1.420E-03     IS=  5
+ Step=  113     Resid= 1.412E-03     IS=  5
+ Step=  114     Resid= 1.405E-03     IS=  5
+ Step=  115     Resid= 1.396E-03     IS=  5
+ Step=  116     Resid= 1.388E-03     IS=  5
+ Step=  117     Resid= 1.380E-03     IS=  5
+ Step=  118     Resid= 1.371E-03     IS=  5
+ Step=  119     Resid= 1.362E-03     IS=  5
+ Step=  120     Resid= 1.353E-03     IS=  5
+ Step=  121     Resid= 1.343E-03     IS=  5
+ Step=  122     Resid= 1.334E-03     IS=  5
+ Step=  123     Resid= 1.324E-03     IS=  5
+ Step=  124     Resid= 1.315E-03     IS=  5
+ Step=  125     Resid= 1.305E-03     IS=  5
+ Step=  126     Resid= 1.295E-03     IS=  5
+ Step=  127     Resid= 1.283E-03     IS=  5
+ Step=  128     Resid= 1.272E-03     IS=  5
+ Step=  129     Resid= 1.261E-03     IS=  5
+ Step=  130     Resid= 1.250E-03     IS=  5
+ Step=  131     Resid= 1.240E-03     IS=  5
+ Step=  132     Resid= 1.230E-03     IS=  5
+ Step=  133     Resid= 1.219E-03     IS=  5
+ Step=  134     Resid= 1.209E-03     IS=  5
+ Step=  135     Resid= 1.199E-03     IS=  5
+ Step=  136     Resid= 1.189E-03     IS=  5
+ Step=  137     Resid= 1.178E-03     IS=  5
+ Step=  138     Resid= 1.167E-03     IS=  5
+ Step=  139     Resid= 1.154E-03     IS=  5
+ Step=  140     Resid= 1.140E-03     IS=  5
+ Step=  141     Resid= 1.126E-03     IS=  5
+ Step=  142     Resid= 1.112E-03     IS=  5
+ Step=  143     Resid= 1.099E-03     IS=  5
+ Step=  144     Resid= 1.086E-03     IS=  5
+ Step=  145     Resid= 1.071E-03     IS=  5
+ Step=  146     Resid= 1.057E-03     IS=  5
+ Step=  147     Resid= 1.045E-03     IS=  5
+ Step=  148     Resid= 1.032E-03     IS=  5
+ Step=  149     Resid= 1.020E-03     IS=  5
+ Step=  150     Resid= 1.010E-03     IS=  5
+ Step=  151     Resid= 9.974E-04     IS=  5
+ Step=  152     Resid= 9.862E-04     IS=  5
+ Step=  153     Resid= 9.767E-04     IS=  5
+ Step=  154     Resid= 9.670E-04     IS=  5
+ Step=  155     Resid= 9.584E-04     IS=  5
+ Step=  156     Resid= 9.503E-04     IS=  5
+ Step=  157     Resid= 9.414E-04     IS=  5
+ Step=  158     Resid= 9.326E-04     IS=  5
+ Step=  159     Resid= 9.246E-04     IS=  5
+ Step=  160     Resid= 9.159E-04     IS=  5
+ Step=  161     Resid= 9.080E-04     IS=  5
+ Step=  162     Resid= 8.999E-04     IS=  5
+ Step=  163     Resid= 8.903E-04     IS=  5
+ Step=  164     Resid= 8.817E-04     IS=  5
+ Step=  165     Resid= 8.743E-04     IS=  5
+ Step=  166     Resid= 8.659E-04     IS=  5
+ Step=  167     Resid= 8.590E-04     IS=  5
+ Step=  168     Resid= 8.530E-04     IS=  5
+ Step=  169     Resid= 8.454E-04     IS=  5
+ Step=  170     Resid= 8.387E-04     IS=  5
+ Step=  171     Resid= 8.332E-04     IS=  5
+ Step=  172     Resid= 8.267E-04     IS=  5
+ Step=  173     Resid= 8.205E-04     IS=  5
+ Step=  174     Resid= 8.150E-04     IS=  5
+ Step=  175     Resid= 8.085E-04     IS=  5
+ Step=  176     Resid= 8.022E-04     IS=  5
+ Step=  177     Resid= 7.968E-04     IS=  5
+ Step=  178     Resid= 7.909E-04     IS=  5
+ Step=  179     Resid= 7.853E-04     IS=  5
+ Step=  180     Resid= 7.800E-04     IS=  5
+ Step=  181     Resid= 7.733E-04     IS=  5
+ Step=  182     Resid= 7.670E-04     IS=  5
+ Step=  183     Resid= 7.613E-04     IS=  5
+ Step=  184     Resid= 7.543E-04     IS=  5
+ Step=  185     Resid= 7.479E-04     IS=  5
+ Step=  186     Resid= 7.420E-04     IS=  5
+ Step=  187     Resid= 7.336E-04     IS=  5
+ Step=  188     Resid= 7.259E-04     IS=  5
+ Step=  189     Resid= 7.196E-04     IS=  5
+ Step=  190     Resid= 7.119E-04     IS=  5
+ Step=  191     Resid= 7.041E-04     IS=  5
+ Step=  192     Resid= 6.968E-04     IS=  5
+ Step=  193     Resid= 6.866E-04     IS=  5
+ Step=  194     Resid= 6.761E-04     IS=  5
+ Step=  195     Resid= 6.671E-04     IS=  5
+ Step=  196     Resid= 6.569E-04     IS=  5
+ Step=  197     Resid= 6.461E-04     IS=  5
+ Step=  198     Resid= 6.358E-04     IS=  5
+ Step=  199     Resid= 6.216E-04     IS=  5
+ Step=  200     Resid= 6.083E-04     IS=  5
+ Step=  201     Resid= 5.975E-04     IS=  5
+ Step=  202     Resid= 5.854E-04     IS=  5
+ Step=  203     Resid= 5.729E-04     IS=  5
+ Step=  204     Resid= 5.610E-04     IS=  5
+ Step=  205     Resid= 5.439E-04     IS=  5
+ Step=  206     Resid= 5.282E-04     IS=  5
+ Step=  207     Resid= 5.163E-04     IS=  5
+ Step=  208     Resid= 5.032E-04     IS=  5
+ Step=  209     Resid= 4.895E-04     IS=  5
+ Step=  210     Resid= 4.772E-04     IS=  5
+ Step=  211     Resid= 4.614E-04     IS=  5
+ Step=  212     Resid= 4.478E-04     IS=  5
+ Step=  213     Resid= 4.381E-04     IS=  5
+ Step=  214     Resid= 4.287E-04     IS=  5
+ Step=  215     Resid= 4.190E-04     IS=  5
+ Step=  216     Resid= 4.109E-04     IS=  5
+ Step=  217     Resid= 4.014E-04     IS=  5
+ Step=  218     Resid= 3.938E-04     IS=  5
+ Step=  219     Resid= 3.885E-04     IS=  5
+ Step=  220     Resid= 3.836E-04     IS=  5
+ Step=  221     Resid= 3.789E-04     IS=  5
+ Step=  222     Resid= 3.749E-04     IS=  5
+ Step=  223     Resid= 3.704E-04     IS=  5
+ Step=  224     Resid= 3.668E-04     IS=  5
+ Step=  225     Resid= 3.642E-04     IS=  5
+ Step=  226     Resid= 3.616E-04     IS=  5
+ Step=  227     Resid= 3.589E-04     IS=  5
+ Step=  228     Resid= 3.565E-04     IS=  5
+ Step=  229     Resid= 3.535E-04     IS=  5
+ Step=  230     Resid= 3.509E-04     IS=  5
+ Step=  231     Resid= 3.490E-04     IS=  5
+ Step=  232     Resid= 3.467E-04     IS=  5
+ Step=  233     Resid= 3.445E-04     IS=  5
+ Step=  234     Resid= 3.426E-04     IS=  5
+ Step=  235     Resid= 3.404E-04     IS=  5
+ Step=  236     Resid= 3.384E-04     IS=  5
+ Step=  237     Resid= 3.369E-04     IS=  5
+ Step=  238     Resid= 3.351E-04     IS=  5
+ Step=  239     Resid= 3.334E-04     IS=  5
+ Step=  240     Resid= 3.320E-04     IS=  5
+ Step=  241     Resid= 3.304E-04     IS=  5
+ Step=  242     Resid= 3.289E-04     IS=  5
+ Step=  243     Resid= 3.277E-04     IS=  5
+ Step=  244     Resid= 3.262E-04     IS=  5
+ Step=  245     Resid= 3.249E-04     IS=  5
+ Step=  246     Resid= 3.238E-04     IS=  5
+ Step=  247     Resid= 3.225E-04     IS=  5
+ Step=  248     Resid= 3.210E-04     IS=  5
+ Step=  249     Resid= 3.197E-04     IS=  5
+ Step=  250     Resid= 3.178E-04     IS=  5
+ Step=  251     Resid= 3.161E-04     IS=  5
+ Step=  252     Resid= 3.146E-04     IS=  5
+ Step=  253     Resid= 3.127E-04     IS=  5
+ Step=  254     Resid= 3.105E-04     IS=  5
+ Step=  255     Resid= 3.085E-04     IS=  5
+ Step=  256     Resid= 3.055E-04     IS=  5
+ Step=  257     Resid= 3.029E-04     IS=  5
+ Step=  258     Resid= 3.009E-04     IS=  5
+ Step=  259     Resid= 2.984E-04     IS=  5
+ Step=  260     Resid= 2.955E-04     IS=  5
+ Step=  261     Resid= 2.929E-04     IS=  5
+ Step=  262     Resid= 2.891E-04     IS=  5
+ Step=  263     Resid= 2.860E-04     IS=  5
+ Step=  264     Resid= 2.836E-04     IS=  5
+ Step=  265     Resid= 2.807E-04     IS=  5
+ Step=  266     Resid= 2.774E-04     IS=  5
+ Step=  267     Resid= 2.745E-04     IS=  5
+ Step=  268     Resid= 2.702E-04     IS=  5
+ Step=  269     Resid= 2.669E-04     IS=  5
+ Step=  270     Resid= 2.644E-04     IS=  5
+ Step=  271     Resid= 2.611E-04     IS=  5
+ Step=  272     Resid= 2.576E-04     IS=  5
+ Step=  273     Resid= 2.543E-04     IS=  5
+ Step=  274     Resid= 2.493E-04     IS=  5
+ Step=  275     Resid= 2.457E-04     IS=  5
+ Step=  276     Resid= 2.429E-04     IS=  5
+ Step=  277     Resid= 2.393E-04     IS=  5
+ Step=  278     Resid= 2.357E-04     IS=  5
+ Step=  279     Resid= 2.325E-04     IS=  5
+ Step=  280     Resid= 2.281E-04     IS=  5
+ Step=  281     Resid= 2.250E-04     IS=  5
+ Step=  282     Resid= 2.227E-04     IS=  5
+ Step=  283     Resid= 2.199E-04     IS=  5
+ Step=  284     Resid= 2.173E-04     IS=  5
+ Step=  285     Resid= 2.151E-04     IS=  5
+ Step=  286     Resid= 2.121E-04     IS=  5
+ Step=  287     Resid= 2.101E-04     IS=  5
+ Step=  288     Resid= 2.087E-04     IS=  5
+ Step=  289     Resid= 2.069E-04     IS=  5
+ Step=  290     Resid= 2.053E-04     IS=  5
+ Step=  291     Resid= 2.039E-04     IS=  5
+ Step=  292     Resid= 2.019E-04     IS=  5
+ Step=  293     Resid= 2.006E-04     IS=  5
+ Step=  294     Resid= 1.996E-04     IS=  5
+ Step=  295     Resid= 1.982E-04     IS=  5
+ Step=  296     Resid= 1.970E-04     IS=  5
+ Step=  297     Resid= 1.958E-04     IS=  5
+ Step=  298     Resid= 1.942E-04     IS=  5
+ Step=  299     Resid= 1.931E-04     IS=  5
+ Step=  300     Resid= 1.922E-04     IS=  5
+ Step=  301     Resid= 1.910E-04     IS=  5
+ Step=  302     Resid= 1.900E-04     IS=  5
+ Step=  303     Resid= 1.891E-04     IS=  5
+ Step=  304     Resid= 1.879E-04     IS=  5
+ Step=  305     Resid= 1.872E-04     IS=  5
+ Step=  306     Resid= 1.865E-04     IS=  5
+ Step=  307     Resid= 1.856E-04     IS=  5
+ Step=  308     Resid= 1.850E-04     IS=  5
+ Step=  309     Resid= 1.844E-04     IS=  5
+ Step=  310     Resid= 1.836E-04     IS=  5
+ Step=  311     Resid= 1.830E-04     IS=  5
+ Step=  312     Resid= 1.825E-04     IS=  5
+ Step=  313     Resid= 1.818E-04     IS=  5
+ Step=  314     Resid= 1.812E-04     IS=  5
+ Step=  315     Resid= 1.807E-04     IS=  5
+ Step=  316     Resid= 1.799E-04     IS=  5
+ Step=  317     Resid= 1.793E-04     IS=  5
+ Step=  318     Resid= 1.786E-04     IS=  5
+ Step=  319     Resid= 1.778E-04     IS=  5
+ Step=  320     Resid= 1.771E-04     IS=  5
+ Step=  321     Resid= 1.764E-04     IS=  5
+ Step=  322     Resid= 1.755E-04     IS=  5
+ Step=  323     Resid= 1.748E-04     IS=  5
+ Step=  324     Resid= 1.740E-04     IS=  5
+ Step=  325     Resid= 1.730E-04     IS=  5
+ Step=  326     Resid= 1.723E-04     IS=  5
+ Step=  327     Resid= 1.717E-04     IS=  5
+ Step=  328     Resid= 1.707E-04     IS=  5
+ Step=  329     Resid= 1.701E-04     IS=  5
+ Step=  330     Resid= 1.693E-04     IS=  5
+ Step=  331     Resid= 1.684E-04     IS=  5
+ Step=  332     Resid= 1.677E-04     IS=  5
+ Step=  333     Resid= 1.671E-04     IS=  5
+ Step=  334     Resid= 1.662E-04     IS=  5
+ Step=  335     Resid= 1.656E-04     IS=  5
+ Step=  336     Resid= 1.649E-04     IS=  5
+ Step=  337     Resid= 1.639E-04     IS=  5
+ Step=  338     Resid= 1.633E-04     IS=  5
+ Step=  339     Resid= 1.626E-04     IS=  5
+ Step=  340     Resid= 1.617E-04     IS=  5
+ Step=  341     Resid= 1.610E-04     IS=  5
+ Step=  342     Resid= 1.602E-04     IS=  5
+ Step=  343     Resid= 1.591E-04     IS=  5
+ Step=  344     Resid= 1.584E-04     IS=  5
+ Step=  345     Resid= 1.576E-04     IS=  5
+ Step=  346     Resid= 1.565E-04     IS=  5
+ Step=  347     Resid= 1.557E-04     IS=  5
+ Step=  348     Resid= 1.548E-04     IS=  5
+ Step=  349     Resid= 1.536E-04     IS=  5
+ Step=  350     Resid= 1.528E-04     IS=  5
+ Step=  351     Resid= 1.519E-04     IS=  5
+ Step=  352     Resid= 1.508E-04     IS=  5
+ Step=  353     Resid= 1.500E-04     IS=  5
+ Step=  354     Resid= 1.491E-04     IS=  5
+ Step=  355     Resid= 1.480E-04     IS=  5
+ Step=  356     Resid= 1.473E-04     IS=  5
+ Step=  357     Resid= 1.466E-04     IS=  5
+ Step=  358     Resid= 1.457E-04     IS=  5
+ Step=  359     Resid= 1.451E-04     IS=  5
+ Step=  360     Resid= 1.444E-04     IS=  5
+ Step=  361     Resid= 1.435E-04     IS=  5
+ Step=  362     Resid= 1.430E-04     IS=  5
+ Step=  363     Resid= 1.424E-04     IS=  5
+ Step=  364     Resid= 1.416E-04     IS=  5
+ Step=  365     Resid= 1.411E-04     IS=  5
+ Step=  366     Resid= 1.404E-04     IS=  5
+ Step=  367     Resid= 1.396E-04     IS=  5
+ Step=  368     Resid= 1.390E-04     IS=  5
+ Step=  369     Resid= 1.384E-04     IS=  5
+ Step=  370     Resid= 1.376E-04     IS=  5
+ Step=  371     Resid= 1.370E-04     IS=  5
+ Step=  372     Resid= 1.362E-04     IS=  5
+ Step=  373     Resid= 1.354E-04     IS=  5
+ Step=  374     Resid= 1.348E-04     IS=  5
+ Step=  375     Resid= 1.341E-04     IS=  5
+ Step=  376     Resid= 1.332E-04     IS=  5
+ Step=  377     Resid= 1.326E-04     IS=  5
+ Step=  378     Resid= 1.319E-04     IS=  5
+ Step=  379     Resid= 1.311E-04     IS=  5
+ Step=  380     Resid= 1.305E-04     IS=  5
+ Step=  381     Resid= 1.298E-04     IS=  5
+ Step=  382     Resid= 1.291E-04     IS=  5
+ Step=  383     Resid= 1.285E-04     IS=  5
+ Step=  384     Resid= 1.278E-04     IS=  5
+ Step=  385     Resid= 1.271E-04     IS=  5
+ Step=  386     Resid= 1.266E-04     IS=  5
+ Step=  387     Resid= 1.261E-04     IS=  5
+ Step=  388     Resid= 1.255E-04     IS=  5
+ Step=  389     Resid= 1.249E-04     IS=  5
+ Step=  390     Resid= 1.244E-04     IS=  5
+ Step=  391     Resid= 1.237E-04     IS=  5
+ Step=  392     Resid= 1.232E-04     IS=  5
+ Step=  393     Resid= 1.227E-04     IS=  5
+ Step=  394     Resid= 1.221E-04     IS=  5
+ Step=  395     Resid= 1.215E-04     IS=  5
+ Step=  396     Resid= 1.207E-04     IS=  5
+ Step=  397     Resid= 1.200E-04     IS=  5
+ Step=  398     Resid= 1.193E-04     IS=  5
+ Step=  399     Resid= 1.185E-04     IS=  5
+ Step=  400     Resid= 1.177E-04     IS=  5
+ Step=  401     Resid= 1.167E-04     IS=  5
+ Step=  402     Resid= 1.156E-04     IS=  5
+ Step=  403     Resid= 1.144E-04     IS=  5
+ Step=  404     Resid= 1.133E-04     IS=  5
+ Step=  405     Resid= 1.122E-04     IS=  5
+ Step=  406     Resid= 1.110E-04     IS=  5
+ Step=  407     Resid= 1.094E-04     IS=  5
+ Step=  408     Resid= 1.077E-04     IS=  5
+ Step=  409     Resid= 1.060E-04     IS=  5
+ Step=  410     Resid= 1.045E-04     IS=  5
+ Step=  411     Resid= 1.029E-04     IS=  5
+ Step=  412     Resid= 1.011E-04     IS=  5
+ Step=  413     Resid= 9.847E-05     IS=  5
+|RXRISM converged in   413 steps
+|Switching to PSE2 closure
+|Using PSE2 closure
+ Step=    1     Resid= 0.170         IS=  1
+ Step=    2     Resid= 5.858E-02     IS=  2
+ Step=    3     Resid= 6.349E-02     IS=  3
+ Step=    4     Resid= 3.058E-02     IS=  4
+ Step=    5     Resid= 1.516E-02     IS=  5
+ Step=    6     Resid= 8.508E-03     IS=  5
+ Step=    7     Resid= 6.789E-03     IS=  5
+ Step=    8     Resid= 4.632E-03     IS=  5
+ Step=    9     Resid= 3.829E-03     IS=  5
+ Step=   10     Resid= 3.463E-03     IS=  5
+ Step=   11     Resid= 3.044E-03     IS=  5
+ Step=   12     Resid= 2.434E-03     IS=  5
+ Step=   13     Resid= 2.164E-03     IS=  5
+ Step=   14     Resid= 1.871E-03     IS=  5
+ Step=   15     Resid= 1.659E-03     IS=  5
+ Step=   16     Resid= 1.494E-03     IS=  5
+ Step=   17     Resid= 1.352E-03     IS=  5
+ Step=   18     Resid= 1.216E-03     IS=  5
+ Step=   19     Resid= 1.121E-03     IS=  5
+ Step=   20     Resid= 1.022E-03     IS=  5
+ Step=   21     Resid= 9.525E-04     IS=  5
+ Step=   22     Resid= 8.745E-04     IS=  5
+ Step=   23     Resid= 8.063E-04     IS=  5
+ Step=   24     Resid= 7.414E-04     IS=  5
+ Step=   25     Resid= 6.746E-04     IS=  5
+ Step=   26     Resid= 6.139E-04     IS=  5
+ Step=   27     Resid= 5.836E-04     IS=  5
+ Step=   28     Resid= 5.431E-04     IS=  5
+ Step=   29     Resid= 5.153E-04     IS=  5
+ Step=   30     Resid= 4.918E-04     IS=  5
+ Step=   31     Resid= 4.588E-04     IS=  5
+ Step=   32     Resid= 4.314E-04     IS=  5
+ Step=   33     Resid= 4.038E-04     IS=  5
+ Step=   34     Resid= 3.768E-04     IS=  5
+ Step=   35     Resid= 3.637E-04     IS=  5
+ Step=   36     Resid= 3.463E-04     IS=  5
+ Step=   37     Resid= 3.304E-04     IS=  5
+ Step=   38     Resid= 3.177E-04     IS=  5
+ Step=   39     Resid= 3.012E-04     IS=  5
+ Step=   40     Resid= 2.791E-04     IS=  5
+ Step=   41     Resid= 2.607E-04     IS=  5
+ Step=   42     Resid= 2.484E-04     IS=  5
+ Step=   43     Resid= 2.404E-04     IS=  5
+ Step=   44     Resid= 2.323E-04     IS=  5
+ Step=   45     Resid= 2.256E-04     IS=  5
+ Step=   46     Resid= 2.183E-04     IS=  5
+ Step=   47     Resid= 2.102E-04     IS=  5
+ Step=   48     Resid= 1.979E-04     IS=  5
+ Step=   49     Resid= 1.905E-04     IS=  5
+ Step=   50     Resid= 1.835E-04     IS=  5
+ Step=   51     Resid= 1.786E-04     IS=  5
+ Step=   52     Resid= 1.725E-04     IS=  5
+ Step=   53     Resid= 1.664E-04     IS=  5
+ Step=   54     Resid= 1.621E-04     IS=  5
+ Step=   55     Resid= 1.571E-04     IS=  5
+ Step=   56     Resid= 1.466E-04     IS=  5
+ Step=   57     Resid= 1.395E-04     IS=  5
+ Step=   58     Resid= 1.349E-04     IS=  5
+ Step=   59     Resid= 1.314E-04     IS=  5
+ Step=   60     Resid= 1.277E-04     IS=  5
+ Step=   61     Resid= 1.243E-04     IS=  5
+ Step=   62     Resid= 1.199E-04     IS=  5
+ Step=   63     Resid= 1.159E-04     IS=  5
+ Step=   64     Resid= 1.128E-04     IS=  5
+ Step=   65     Resid= 1.102E-04     IS=  5
+ Step=   66     Resid= 1.079E-04     IS=  5
+ Step=   67     Resid= 1.052E-04     IS=  5
+ Step=   68     Resid= 1.028E-04     IS=  5
+ Step=   69     Resid= 9.917E-05     IS=  5
+|RXRISM converged in    69 steps
+|Switching to PSE3 closure
+|Using PSE3 closure
+ Step=    1     Resid= 0.103         IS=  1
+ Step=    2     Resid= 5.042E-02     IS=  2
+ Step=    3     Resid= 6.166E-02     IS=  3
+ Step=    4     Resid= 4.039E-02     IS=  4
+ Step=    5     Resid= 3.350E-02     IS=  5
+ Step=    6     Resid= 2.154E-02     IS=  5
+ Step=    7     Resid= 2.270E-02     IS=  5
+ Step=    8     Resid= 2.007E-02     IS=  5
+ Step=    9     Resid= 1.653E-02     IS=  5
+ Step=   10     Resid= 1.803E-02     IS=  5
+ Step=   11     Resid= 1.564E-02     IS=  5
+ Step=   12     Resid= 1.313E-02     IS=  5
+ Step=   13     Resid= 1.097E-02     IS=  5
+ Step=   14     Resid= 6.839E-03     IS=  5
+ Step=   15     Resid= 4.623E-03     IS=  5
+ Step=   16     Resid= 3.488E-03     IS=  5
+ Step=   17     Resid= 1.877E-03     IS=  5
+ Step=   18     Resid= 2.045E-03     IS=  5
+ Step=   19     Resid= 1.804E-03     IS=  5
+ Step=   20     Resid= 1.453E-03     IS=  5
+ Step=   21     Resid= 1.123E-03     IS=  5
+ Step=   22     Resid= 1.047E-03     IS=  5
+ Step=   23     Resid= 9.317E-04     IS=  5
+ Step=   24     Resid= 9.067E-04     IS=  5
+ Step=   25     Resid= 8.085E-04     IS=  5
+ Step=   26     Resid= 7.316E-04     IS=  5
+ Step=   27     Resid= 6.558E-04     IS=  5
+ Step=   28     Resid= 6.532E-04     IS=  5
+ Step=   29     Resid= 5.951E-04     IS=  5
+ Step=   30     Resid= 5.567E-04     IS=  5
+ Step=   31     Resid= 5.402E-04     IS=  5
+ Step=   32     Resid= 4.993E-04     IS=  5
+ Step=   33     Resid= 4.860E-04     IS=  5
+ Step=   34     Resid= 4.602E-04     IS=  5
+ Step=   35     Resid= 4.305E-04     IS=  5
+ Step=   36     Resid= 3.793E-04     IS=  5
+ Step=   37     Resid= 3.458E-04     IS=  5
+ Step=   38     Resid= 3.509E-04     IS=  5
+ Step=   39     Resid= 3.422E-04     IS=  5
+ Step=   40     Resid= 3.376E-04     IS=  5
+ Step=   41     Resid= 3.275E-04     IS=  5
+ Step=   42     Resid= 3.238E-04     IS=  5
+ Step=   43     Resid= 3.074E-04     IS=  5
+ Step=   44     Resid= 3.508E-04     IS=  5
+ Step=   45     Resid= 2.732E-04     IS=  5
+ Step=   46     Resid= 2.717E-04     IS=  5
+ Step=   47     Resid= 2.368E-04     IS=  5
+ Step=   48     Resid= 2.514E-04     IS=  5
+ Step=   49     Resid= 2.237E-04     IS=  5
+ Step=   50     Resid= 2.296E-04     IS=  5
+ Step=   51     Resid= 2.039E-04     IS=  5
+ Step=   52     Resid= 2.132E-04     IS=  5
+ Step=   53     Resid= 1.913E-04     IS=  5
+ Step=   54     Resid= 2.090E-04     IS=  5
+ Step=   55     Resid= 1.749E-04     IS=  5
+ Step=   56     Resid= 1.768E-04     IS=  5
+ Step=   57     Resid= 1.730E-04     IS=  5
+ Step=   58     Resid= 1.689E-04     IS=  5
+ Step=   59     Resid= 1.632E-04     IS=  5
+ Step=   60     Resid= 1.607E-04     IS=  5
+ Step=   61     Resid= 1.600E-04     IS=  5
+ Step=   62     Resid= 1.572E-04     IS=  5
+ Step=   63     Resid= 1.613E-04     IS=  5
+ Step=   64     Resid= 1.517E-04     IS=  5
+ Step=   65     Resid= 1.506E-04     IS=  5
+ Step=   66     Resid= 1.478E-04     IS=  5
+ Step=   67     Resid= 1.409E-04     IS=  5
+ Step=   68     Resid= 1.336E-04     IS=  5
+ Step=   69     Resid= 1.256E-04     IS=  5
+ Step=   70     Resid= 1.266E-04     IS=  5
+ Step=   71     Resid= 1.242E-04     IS=  5
+ Step=   72     Resid= 1.221E-04     IS=  5
+ Step=   73     Resid= 1.183E-04     IS=  5
+ Step=   74     Resid= 1.173E-04     IS=  5
+ Step=   75     Resid= 1.163E-04     IS=  5
+ Step=   76     Resid= 1.149E-04     IS=  5
+ Step=   77     Resid= 1.140E-04     IS=  5
+ Step=   78     Resid= 1.129E-04     IS=  5
+ Step=   79     Resid= 1.122E-04     IS=  5
+ Step=   80     Resid= 1.103E-04     IS=  5
+ Step=   81     Resid= 1.091E-04     IS=  5
+ Step=   82     Resid= 1.074E-04     IS=  5
+ Step=   83     Resid= 1.076E-04     IS=  5
+ Step=   84     Resid= 1.070E-04     IS=  5
+ Step=   85     Resid= 1.067E-04     IS=  5
+ Step=   86     Resid= 1.059E-04     IS=  5
+ Step=   87     Resid= 1.055E-04     IS=  5
+ Step=   88     Resid= 1.043E-04     IS=  5
+ Step=   89     Resid= 1.057E-04     IS=  5
+ Step=   90     Resid= 1.039E-04     IS=  5
+ Step=   91     Resid= 1.028E-04     IS=  5
+ Step=   92     Resid= 1.020E-04     IS=  5
+ Step=   93     Resid= 1.010E-04     IS=  5
+ Step=   94     Resid= 1.015E-04     IS=  5
+ Step=   95     Resid= 9.816E-05     IS=  5
+ Step=   96     Resid= 9.913E-05     IS=  5
+ Step=   97     Resid= 9.264E-05     IS=  5
+ Step=   98     Resid= 9.279E-05     IS=  5
+ Step=   99     Resid= 9.165E-05     IS=  5
+ Step=  100     Resid= 8.879E-05     IS=  5
+ Step=  101     Resid= 8.599E-05     IS=  5
+ Step=  102     Resid= 8.611E-05     IS=  5
+ Step=  103     Resid= 8.507E-05     IS=  5
+ Step=  104     Resid= 8.532E-05     IS=  5
+ Step=  105     Resid= 8.411E-05     IS=  5
+ Step=  106     Resid= 8.377E-05     IS=  5
+ Step=  107     Resid= 8.321E-05     IS=  5
+ Step=  108     Resid= 8.148E-05     IS=  5
+ Step=  109     Resid= 8.010E-05     IS=  5
+ Step=  110     Resid= 7.886E-05     IS=  5
+ Step=  111     Resid= 8.102E-05     IS=  5
+ Step=  112     Resid= 7.372E-05     IS=  5
+ Step=  113     Resid= 7.110E-05     IS=  5
+ Step=  114     Resid= 6.923E-05     IS=  5
+ Step=  115     Resid= 6.837E-05     IS=  5
+ Step=  116     Resid= 6.988E-05     IS=  5
+ Step=  117     Resid= 6.566E-05     IS=  5
+ Step=  118     Resid= 6.499E-05     IS=  5
+ Step=  119     Resid= 6.291E-05     IS=  5
+ Step=  120     Resid= 6.192E-05     IS=  5
+ Step=  121     Resid= 6.057E-05     IS=  5
+ Step=  122     Resid= 5.934E-05     IS=  5
+ Step=  123     Resid= 5.885E-05     IS=  5
+ Step=  124     Resid= 5.815E-05     IS=  5
+ Step=  125     Resid= 5.752E-05     IS=  5
+ Step=  126     Resid= 5.702E-05     IS=  5
+ Step=  127     Resid= 5.641E-05     IS=  5
+ Step=  128     Resid= 5.598E-05     IS=  5
+ Step=  129     Resid= 5.576E-05     IS=  5
+ Step=  130     Resid= 5.547E-05     IS=  5
+ Step=  131     Resid= 5.514E-05     IS=  5
+ Step=  132     Resid= 5.476E-05     IS=  5
+ Step=  133     Resid= 5.450E-05     IS=  5
+ Step=  134     Resid= 5.445E-05     IS=  5
+ Step=  135     Resid= 5.412E-05     IS=  5
+ Step=  136     Resid= 5.367E-05     IS=  5
+ Step=  137     Resid= 5.318E-05     IS=  5
+ Step=  138     Resid= 5.308E-05     IS=  5
+ Step=  139     Resid= 5.279E-05     IS=  5
+ Step=  140     Resid= 5.265E-05     IS=  5
+ Step=  141     Resid= 5.229E-05     IS=  5
+ Step=  142     Resid= 5.185E-05     IS=  5
+ Step=  143     Resid= 5.120E-05     IS=  5
+ Step=  144     Resid= 5.096E-05     IS=  5
+ Step=  145     Resid= 5.086E-05     IS=  5
+ Step=  146     Resid= 4.995E-05     IS=  5
+ Step=  147     Resid= 5.006E-05     IS=  5
+ Step=  148     Resid= 4.952E-05     IS=  5
+ Step=  149     Resid= 4.917E-05     IS=  5
+ Step=  150     Resid= 4.902E-05     IS=  5
+ Step=  151     Resid= 4.890E-05     IS=  5
+ Step=  152     Resid= 4.853E-05     IS=  5
+ Step=  153     Resid= 4.838E-05     IS=  5
+ Step=  154     Resid= 4.814E-05     IS=  5
+ Step=  155     Resid= 4.781E-05     IS=  5
+ Step=  156     Resid= 4.724E-05     IS=  5
+ Step=  157     Resid= 4.627E-05     IS=  5
+ Step=  158     Resid= 4.599E-05     IS=  5
+ Step=  159     Resid= 4.292E-05     IS=  5
+ Step=  160     Resid= 4.332E-05     IS=  5
+ Step=  161     Resid= 4.200E-05     IS=  5
+ Step=  162     Resid= 4.106E-05     IS=  5
+ Step=  163     Resid= 4.119E-05     IS=  5
+ Step=  164     Resid= 4.126E-05     IS=  5
+ Step=  165     Resid= 4.004E-05     IS=  5
+ Step=  166     Resid= 3.999E-05     IS=  5
+ Step=  167     Resid= 3.915E-05     IS=  5
+ Step=  168     Resid= 3.859E-05     IS=  5
+ Step=  169     Resid= 3.812E-05     IS=  5
+ Step=  170     Resid= 3.666E-05     IS=  5
+ Step=  171     Resid= 3.617E-05     IS=  5
+ Step=  172     Resid= 3.578E-05     IS=  5
+ Step=  173     Resid= 3.561E-05     IS=  5
+ Step=  174     Resid= 3.558E-05     IS=  5
+ Step=  175     Resid= 3.520E-05     IS=  5
+ Step=  176     Resid= 3.501E-05     IS=  5
+ Step=  177     Resid= 3.505E-05     IS=  5
+ Step=  178     Resid= 3.491E-05     IS=  5
+ Step=  179     Resid= 3.460E-05     IS=  5
+ Step=  180     Resid= 3.412E-05     IS=  5
+ Step=  181     Resid= 3.444E-05     IS=  5
+ Step=  182     Resid= 3.428E-05     IS=  5
+ Step=  183     Resid= 3.392E-05     IS=  5
+ Step=  184     Resid= 3.383E-05     IS=  5
+ Step=  185     Resid= 3.368E-05     IS=  5
+ Step=  186     Resid= 3.353E-05     IS=  5
+ Step=  187     Resid= 3.342E-05     IS=  5
+ Step=  188     Resid= 3.320E-05     IS=  5
+ Step=  189     Resid= 3.264E-05     IS=  5
+ Step=  190     Resid= 3.237E-05     IS=  5
+ Step=  191     Resid= 3.216E-05     IS=  5
+ Step=  192     Resid= 3.191E-05     IS=  5
+ Step=  193     Resid= 3.199E-05     IS=  5
+ Step=  194     Resid= 3.178E-05     IS=  5
+ Step=  195     Resid= 3.160E-05     IS=  5
+ Step=  196     Resid= 3.154E-05     IS=  5
+ Step=  197     Resid= 3.148E-05     IS=  5
+ Step=  198     Resid= 3.135E-05     IS=  5
+ Step=  199     Resid= 3.133E-05     IS=  5
+ Step=  200     Resid= 3.127E-05     IS=  5
+ Step=  201     Resid= 3.130E-05     IS=  5
+ Step=  202     Resid= 3.112E-05     IS=  5
+ Step=  203     Resid= 3.078E-05     IS=  5
+ Step=  204     Resid= 3.077E-05     IS=  5
+ Step=  205     Resid= 3.067E-05     IS=  5
+ Step=  206     Resid= 3.043E-05     IS=  5
+ Step=  207     Resid= 3.048E-05     IS=  5
+ Step=  208     Resid= 3.004E-05     IS=  5
+ Step=  209     Resid= 2.996E-05     IS=  5
+ Step=  210     Resid= 2.966E-05     IS=  5
+ Step=  211     Resid= 2.953E-05     IS=  5
+ Step=  212     Resid= 2.941E-05     IS=  5
+ Step=  213     Resid= 2.931E-05     IS=  5
+ Step=  214     Resid= 2.904E-05     IS=  5
+ Step=  215     Resid= 2.912E-05     IS=  5
+ Step=  216     Resid= 2.882E-05     IS=  5
+ Step=  217     Resid= 2.868E-05     IS=  5
+ Step=  218     Resid= 2.876E-05     IS=  5
+ Step=  219     Resid= 2.890E-05     IS=  5
+ Step=  220     Resid= 2.821E-05     IS=  5
+ Step=  221     Resid= 2.808E-05     IS=  5
+ Step=  222     Resid= 2.786E-05     IS=  5
+ Step=  223     Resid= 2.795E-05     IS=  5
+ Step=  224     Resid= 2.766E-05     IS=  5
+ Step=  225     Resid= 2.760E-05     IS=  5
+ Step=  226     Resid= 2.749E-05     IS=  5
+ Step=  227     Resid= 2.735E-05     IS=  5
+ Step=  228     Resid= 2.727E-05     IS=  5
+ Step=  229     Resid= 2.716E-05     IS=  5
+ Step=  230     Resid= 2.710E-05     IS=  5
+ Step=  231     Resid= 2.701E-05     IS=  5
+ Step=  232     Resid= 2.687E-05     IS=  5
+ Step=  233     Resid= 2.681E-05     IS=  5
+ Step=  234     Resid= 2.680E-05     IS=  5
+ Step=  235     Resid= 2.670E-05     IS=  5
+ Step=  236     Resid= 2.662E-05     IS=  5
+ Step=  237     Resid= 2.649E-05     IS=  5
+ Step=  238     Resid= 2.650E-05     IS=  5
+ Step=  239     Resid= 2.640E-05     IS=  5
+ Step=  240     Resid= 2.641E-05     IS=  5
+ Step=  241     Resid= 2.628E-05     IS=  5
+ Step=  242     Resid= 2.613E-05     IS=  5
+ Step=  243     Resid= 2.600E-05     IS=  5
+ Step=  244     Resid= 2.568E-05     IS=  5
+ Step=  245     Resid= 2.587E-05     IS=  5
+ Step=  246     Resid= 2.580E-05     IS=  5
+ Step=  247     Resid= 2.538E-05     IS=  5
+ Step=  248     Resid= 2.604E-05     IS=  5
+ Step=  249     Resid= 2.461E-05     IS=  5
+ Step=  250     Resid= 2.407E-05     IS=  5
+ Step=  251     Resid= 2.363E-05     IS=  5
+ Step=  252     Resid= 2.387E-05     IS=  5
+ Step=  253     Resid= 2.353E-05     IS=  5
+ Step=  254     Resid= 2.350E-05     IS=  5
+ Step=  255     Resid= 2.336E-05     IS=  5
+ Step=  256     Resid= 2.330E-05     IS=  5
+ Step=  257     Resid= 2.329E-05     IS=  5
+ Step=  258     Resid= 2.332E-05     IS=  5
+ Step=  259     Resid= 2.322E-05     IS=  5
+ Step=  260     Resid= 2.306E-05     IS=  5
+ Step=  261     Resid= 2.302E-05     IS=  5
+ Step=  262     Resid= 2.297E-05     IS=  5
+ Step=  263     Resid= 2.295E-05     IS=  5
+ Step=  264     Resid= 2.295E-05     IS=  5
+ Step=  265     Resid= 2.287E-05     IS=  5
+ Step=  266     Resid= 2.282E-05     IS=  5
+ Step=  267     Resid= 2.280E-05     IS=  5
+ Step=  268     Resid= 2.280E-05     IS=  5
+ Step=  269     Resid= 2.272E-05     IS=  5
+ Step=  270     Resid= 2.251E-05     IS=  5
+ Step=  271     Resid= 2.225E-05     IS=  5
+ Step=  272     Resid= 2.285E-05     IS=  5
+ Step=  273     Resid= 2.243E-05     IS=  5
+ Step=  274     Resid= 2.196E-05     IS=  5
+ Step=  275     Resid= 2.168E-05     IS=  5
+ Step=  276     Resid= 2.166E-05     IS=  5
+ Step=  277     Resid= 2.159E-05     IS=  5
+ Step=  278     Resid= 2.146E-05     IS=  5
+ Step=  279     Resid= 2.137E-05     IS=  5
+ Step=  280     Resid= 2.129E-05     IS=  5
+ Step=  281     Resid= 2.124E-05     IS=  5
+ Step=  282     Resid= 2.117E-05     IS=  5
+ Step=  283     Resid= 2.112E-05     IS=  5
+ Step=  284     Resid= 2.102E-05     IS=  5
+ Step=  285     Resid= 2.101E-05     IS=  5
+ Step=  286     Resid= 2.092E-05     IS=  5
+ Step=  287     Resid= 2.091E-05     IS=  5
+ Step=  288     Resid= 2.081E-05     IS=  5
+ Step=  289     Resid= 2.062E-05     IS=  5
+ Step=  290     Resid= 2.044E-05     IS=  5
+ Step=  291     Resid= 2.039E-05     IS=  5
+ Step=  292     Resid= 2.026E-05     IS=  5
+ Step=  293     Resid= 1.985E-05     IS=  5
+ Step=  294     Resid= 1.977E-05     IS=  5
+ Step=  295     Resid= 1.983E-05     IS=  5
+ Step=  296     Resid= 1.970E-05     IS=  5
+ Step=  297     Resid= 1.956E-05     IS=  5
+ Step=  298     Resid= 1.947E-05     IS=  5
+ Step=  299     Resid= 1.949E-05     IS=  5
+ Step=  300     Resid= 1.917E-05     IS=  5
+ Step=  301     Resid= 1.900E-05     IS=  5
+ Step=  302     Resid= 1.933E-05     IS=  5
+ Step=  303     Resid= 1.955E-05     IS=  5
+ Step=  304     Resid= 1.856E-05     IS=  5
+ Step=  305     Resid= 1.827E-05     IS=  5
+ Step=  306     Resid= 1.793E-05     IS=  5
+ Step=  307     Resid= 1.774E-05     IS=  5
+ Step=  308     Resid= 1.768E-05     IS=  5
+ Step=  309     Resid= 1.755E-05     IS=  5
+ Step=  310     Resid= 1.756E-05     IS=  5
+ Step=  311     Resid= 1.725E-05     IS=  5
+ Step=  312     Resid= 1.708E-05     IS=  5
+ Step=  313     Resid= 1.709E-05     IS=  5
+ Step=  314     Resid= 1.676E-05     IS=  5
+ Step=  315     Resid= 1.661E-05     IS=  5
+ Step=  316     Resid= 1.604E-05     IS=  5
+ Step=  317     Resid= 1.643E-05     IS=  5
+ Step=  318     Resid= 1.643E-05     IS=  5
+ Step=  319     Resid= 1.585E-05     IS=  5
+ Step=  320     Resid= 1.591E-05     IS=  5
+ Step=  321     Resid= 1.561E-05     IS=  5
+ Step=  322     Resid= 1.589E-05     IS=  5
+ Step=  323     Resid= 1.520E-05     IS=  5
+ Step=  324     Resid= 1.503E-05     IS=  5
+ Step=  325     Resid= 1.430E-05     IS=  5
+ Step=  326     Resid= 1.373E-05     IS=  5
+ Step=  327     Resid= 1.293E-05     IS=  5
+ Step=  328     Resid= 1.190E-05     IS=  5
+ Step=  329     Resid= 1.164E-05     IS=  5
+ Step=  330     Resid= 1.133E-05     IS=  5
+ Step=  331     Resid= 1.099E-05     IS=  5
+ Step=  332     Resid= 9.913E-06     IS=  5
+ Step=  333     Resid= 9.442E-06     IS=  5
+ Step=  334     Resid= 9.483E-06     IS=  5
+ Step=  335     Resid= 9.417E-06     IS=  5
+ Step=  336     Resid= 9.232E-06     IS=  5
+ Step=  337     Resid= 9.165E-06     IS=  5
+ Step=  338     Resid= 9.098E-06     IS=  5
+ Step=  339     Resid= 9.060E-06     IS=  5
+ Step=  340     Resid= 9.043E-06     IS=  5
+ Step=  341     Resid= 8.891E-06     IS=  5
+ Step=  342     Resid= 8.785E-06     IS=  5
+ Step=  343     Resid= 8.761E-06     IS=  5
+ Step=  344     Resid= 8.711E-06     IS=  5
+ Step=  345     Resid= 8.644E-06     IS=  5
+ Step=  346     Resid= 8.603E-06     IS=  5
+ Step=  347     Resid= 8.497E-06     IS=  5
+ Step=  348     Resid= 8.390E-06     IS=  5
+ Step=  349     Resid= 8.357E-06     IS=  5
+ Step=  350     Resid= 8.279E-06     IS=  5
+ Step=  351     Resid= 8.259E-06     IS=  5
+ Step=  352     Resid= 8.244E-06     IS=  5
+ Step=  353     Resid= 8.196E-06     IS=  5
+ Step=  354     Resid= 8.172E-06     IS=  5
+ Step=  355     Resid= 8.158E-06     IS=  5
+ Step=  356     Resid= 8.133E-06     IS=  5
+ Step=  357     Resid= 8.132E-06     IS=  5
+ Step=  358     Resid= 8.103E-06     IS=  5
+ Step=  359     Resid= 8.080E-06     IS=  5
+ Step=  360     Resid= 8.053E-06     IS=  5
+ Step=  361     Resid= 8.086E-06     IS=  5
+ Step=  362     Resid= 7.932E-06     IS=  5
+ Step=  363     Resid= 7.884E-06     IS=  5
+ Step=  364     Resid= 7.844E-06     IS=  5
+ Step=  365     Resid= 7.829E-06     IS=  5
+ Step=  366     Resid= 7.783E-06     IS=  5
+ Step=  367     Resid= 7.733E-06     IS=  5
+ Step=  368     Resid= 7.671E-06     IS=  5
+ Step=  369     Resid= 7.625E-06     IS=  5
+ Step=  370     Resid= 7.561E-06     IS=  5
+ Step=  371     Resid= 7.510E-06     IS=  5
+ Step=  372     Resid= 7.441E-06     IS=  5
+ Step=  373     Resid= 7.418E-06     IS=  5
+ Step=  374     Resid= 7.394E-06     IS=  5
+ Step=  375     Resid= 7.383E-06     IS=  5
+ Step=  376     Resid= 7.385E-06     IS=  5
+ Step=  377     Resid= 7.338E-06     IS=  5
+ Step=  378     Resid= 7.292E-06     IS=  5
+ Step=  379     Resid= 7.243E-06     IS=  5
+ Step=  380     Resid= 7.216E-06     IS=  5
+ Step=  381     Resid= 7.192E-06     IS=  5
+ Step=  382     Resid= 7.171E-06     IS=  5
+ Step=  383     Resid= 7.278E-06     IS=  5
+ Step=  384     Resid= 6.772E-06     IS=  5
+ Step=  385     Resid= 6.844E-06     IS=  5
+ Step=  386     Resid= 6.751E-06     IS=  5
+ Step=  387     Resid= 6.616E-06     IS=  5
+ Step=  388     Resid= 6.414E-06     IS=  5
+ Step=  389     Resid= 6.324E-06     IS=  5
+ Step=  390     Resid= 5.945E-06     IS=  5
+ Step=  391     Resid= 5.745E-06     IS=  5
+ Step=  392     Resid= 5.808E-06     IS=  5
+ Step=  393     Resid= 5.705E-06     IS=  5
+ Step=  394     Resid= 5.618E-06     IS=  5
+ Step=  395     Resid= 5.598E-06     IS=  5
+ Step=  396     Resid= 5.522E-06     IS=  5
+ Step=  397     Resid= 5.482E-06     IS=  5
+ Step=  398     Resid= 5.440E-06     IS=  5
+ Step=  399     Resid= 5.407E-06     IS=  5
+ Step=  400     Resid= 5.357E-06     IS=  5
+ Step=  401     Resid= 5.286E-06     IS=  5
+ Step=  402     Resid= 5.301E-06     IS=  5
+ Step=  403     Resid= 5.286E-06     IS=  5
+ Step=  404     Resid= 5.236E-06     IS=  5
+ Step=  405     Resid= 5.200E-06     IS=  5
+ Step=  406     Resid= 5.153E-06     IS=  5
+ Step=  407     Resid= 5.052E-06     IS=  5
+ Step=  408     Resid= 4.928E-06     IS=  5
+ Step=  409     Resid= 4.895E-06     IS=  5
+ Step=  410     Resid= 4.835E-06     IS=  5
+ Step=  411     Resid= 4.719E-06     IS=  5
+ Step=  412     Resid= 4.671E-06     IS=  5
+ Step=  413     Resid= 4.641E-06     IS=  5
+ Step=  414     Resid= 4.607E-06     IS=  5
+ Step=  415     Resid= 4.591E-06     IS=  5
+ Step=  416     Resid= 4.585E-06     IS=  5
+ Step=  417     Resid= 4.546E-06     IS=  5
+ Step=  418     Resid= 4.448E-06     IS=  5
+ Step=  419     Resid= 4.246E-06     IS=  5
+ Step=  420     Resid= 4.177E-06     IS=  5
+ Step=  421     Resid= 4.203E-06     IS=  5
+ Step=  422     Resid= 3.980E-06     IS=  5
+ Step=  423     Resid= 4.150E-06     IS=  5
+ Step=  424     Resid= 3.819E-06     IS=  5
+ Step=  425     Resid= 3.696E-06     IS=  5
+ Step=  426     Resid= 3.518E-06     IS=  5
+ Step=  427     Resid= 3.474E-06     IS=  5
+ Step=  428     Resid= 3.414E-06     IS=  5
+ Step=  429     Resid= 3.133E-06     IS=  5
+ Step=  430     Resid= 3.118E-06     IS=  5
+ Step=  431     Resid= 3.091E-06     IS=  5
+ Step=  432     Resid= 2.932E-06     IS=  5
+ Step=  433     Resid= 2.848E-06     IS=  5
+ Step=  434     Resid= 2.911E-06     IS=  5
+ Step=  435     Resid= 2.835E-06     IS=  5
+ Step=  436     Resid= 2.828E-06     IS=  5
+ Step=  437     Resid= 2.808E-06     IS=  5
+ Step=  438     Resid= 2.791E-06     IS=  5
+ Step=  439     Resid= 2.761E-06     IS=  5
+ Step=  440     Resid= 2.760E-06     IS=  5
+ Step=  441     Resid= 2.743E-06     IS=  5
+ Step=  442     Resid= 2.708E-06     IS=  5
+ Step=  443     Resid= 2.694E-06     IS=  5
+ Step=  444     Resid= 2.673E-06     IS=  5
+ Step=  445     Resid= 2.644E-06     IS=  5
+ Step=  446     Resid= 2.623E-06     IS=  5
+ Step=  447     Resid= 2.634E-06     IS=  5
+ Step=  448     Resid= 2.611E-06     IS=  5
+ Step=  449     Resid= 2.602E-06     IS=  5
+ Step=  450     Resid= 2.608E-06     IS=  5
+ Step=  451     Resid= 2.673E-06     IS=  5
+ Step=  452     Resid= 2.638E-06     IS=  5
+ Step=  453     Resid= 2.560E-06     IS=  5
+ Step=  454     Resid= 2.557E-06     IS=  5
+ Step=  455     Resid= 2.488E-06     IS=  5
+ Step=  456     Resid= 2.473E-06     IS=  5
+ Step=  457     Resid= 2.461E-06     IS=  5
+ Step=  458     Resid= 2.451E-06     IS=  5
+ Step=  459     Resid= 2.442E-06     IS=  5
+ Step=  460     Resid= 2.436E-06     IS=  5
+ Step=  461     Resid= 2.427E-06     IS=  5
+ Step=  462     Resid= 2.411E-06     IS=  5
+ Step=  463     Resid= 2.391E-06     IS=  5
+ Step=  464     Resid= 2.377E-06     IS=  5
+ Step=  465     Resid= 2.366E-06     IS=  5
+ Step=  466     Resid= 2.351E-06     IS=  5
+ Step=  467     Resid= 2.305E-06     IS=  5
+ Step=  468     Resid= 2.312E-06     IS=  5
+ Step=  469     Resid= 2.273E-06     IS=  5
+ Step=  470     Resid= 2.252E-06     IS=  5
+ Step=  471     Resid= 2.234E-06     IS=  5
+ Step=  472     Resid= 2.233E-06     IS=  5
+ Step=  473     Resid= 2.205E-06     IS=  5
+ Step=  474     Resid= 2.183E-06     IS=  5
+ Step=  475     Resid= 2.176E-06     IS=  5
+ Step=  476     Resid= 2.149E-06     IS=  5
+ Step=  477     Resid= 2.159E-06     IS=  5
+ Step=  478     Resid= 2.123E-06     IS=  5
+ Step=  479     Resid= 2.085E-06     IS=  5
+ Step=  480     Resid= 2.077E-06     IS=  5
+ Step=  481     Resid= 2.066E-06     IS=  5
+ Step=  482     Resid= 2.030E-06     IS=  5
+ Step=  483     Resid= 2.023E-06     IS=  5
+ Step=  484     Resid= 2.016E-06     IS=  5
+ Step=  485     Resid= 2.008E-06     IS=  5
+ Step=  486     Resid= 1.989E-06     IS=  5
+ Step=  487     Resid= 1.970E-06     IS=  5
+ Step=  488     Resid= 1.965E-06     IS=  5
+ Step=  489     Resid= 1.956E-06     IS=  5
+ Step=  490     Resid= 1.941E-06     IS=  5
+ Step=  491     Resid= 1.911E-06     IS=  5
+ Step=  492     Resid= 1.916E-06     IS=  5
+ Step=  493     Resid= 1.900E-06     IS=  5
+ Step=  494     Resid= 1.789E-06     IS=  5
+ Step=  495     Resid= 1.735E-06     IS=  5
+ Step=  496     Resid= 1.733E-06     IS=  5
+ Step=  497     Resid= 1.733E-06     IS=  5
+ Step=  498     Resid= 1.717E-06     IS=  5
+ Step=  499     Resid= 1.691E-06     IS=  5
+ Step=  500     Resid= 1.689E-06     IS=  5
+ Step=  501     Resid= 1.637E-06     IS=  5
+ Step=  502     Resid= 1.566E-06     IS=  5
+ Step=  503     Resid= 1.497E-06     IS=  5
+ Step=  504     Resid= 1.539E-06     IS=  5
+ Step=  505     Resid= 1.505E-06     IS=  5
+ Step=  506     Resid= 1.491E-06     IS=  5
+ Step=  507     Resid= 1.467E-06     IS=  5
+ Step=  508     Resid= 1.454E-06     IS=  5
+ Step=  509     Resid= 1.453E-06     IS=  5
+ Step=  510     Resid= 1.448E-06     IS=  5
+ Step=  511     Resid= 1.445E-06     IS=  5
+ Step=  512     Resid= 1.439E-06     IS=  5
+ Step=  513     Resid= 1.435E-06     IS=  5
+ Step=  514     Resid= 1.428E-06     IS=  5
+ Step=  515     Resid= 1.412E-06     IS=  5
+ Step=  516     Resid= 1.450E-06     IS=  5
+ Step=  517     Resid= 1.402E-06     IS=  5
+ Step=  518     Resid= 1.389E-06     IS=  5
+ Step=  519     Resid= 1.371E-06     IS=  5
+ Step=  520     Resid= 1.373E-06     IS=  5
+ Step=  521     Resid= 1.356E-06     IS=  5
+ Step=  522     Resid= 1.352E-06     IS=  5
+ Step=  523     Resid= 1.350E-06     IS=  5
+ Step=  524     Resid= 1.346E-06     IS=  5
+ Step=  525     Resid= 1.339E-06     IS=  5
+ Step=  526     Resid= 1.353E-06     IS=  5
+ Step=  527     Resid= 1.327E-06     IS=  5
+ Step=  528     Resid= 1.340E-06     IS=  5
+ Step=  529     Resid= 1.322E-06     IS=  5
+ Step=  530     Resid= 1.317E-06     IS=  5
+ Step=  531     Resid= 1.266E-06     IS=  5
+ Step=  532     Resid= 1.254E-06     IS=  5
+ Step=  533     Resid= 1.249E-06     IS=  5
+ Step=  534     Resid= 1.246E-06     IS=  5
+ Step=  535     Resid= 1.241E-06     IS=  5
+ Step=  536     Resid= 1.236E-06     IS=  5
+ Step=  537     Resid= 1.236E-06     IS=  5
+ Step=  538     Resid= 1.232E-06     IS=  5
+ Step=  539     Resid= 1.226E-06     IS=  5
+ Step=  540     Resid= 1.210E-06     IS=  5
+ Step=  541     Resid= 1.209E-06     IS=  5
+ Step=  542     Resid= 1.201E-06     IS=  5
+ Step=  543     Resid= 1.195E-06     IS=  5
+ Step=  544     Resid= 1.206E-06     IS=  5
+ Step=  545     Resid= 1.200E-06     IS=  5
+ Step=  546     Resid= 1.162E-06     IS=  5
+ Step=  547     Resid= 1.183E-06     IS=  5
+ Step=  548     Resid= 1.144E-06     IS=  5
+ Step=  549     Resid= 1.136E-06     IS=  5
+ Step=  550     Resid= 1.122E-06     IS=  5
+ Step=  551     Resid= 1.115E-06     IS=  5
+ Step=  552     Resid= 1.111E-06     IS=  5
+ Step=  553     Resid= 1.108E-06     IS=  5
+ Step=  554     Resid= 1.106E-06     IS=  5
+ Step=  555     Resid= 1.095E-06     IS=  5
+ Step=  556     Resid= 1.095E-06     IS=  5
+ Step=  557     Resid= 1.093E-06     IS=  5
+ Step=  558     Resid= 1.088E-06     IS=  5
+ Step=  559     Resid= 1.080E-06     IS=  5
+ Step=  560     Resid= 1.077E-06     IS=  5
+ Step=  561     Resid= 1.074E-06     IS=  5
+ Step=  562     Resid= 1.071E-06     IS=  5
+ Step=  563     Resid= 1.068E-06     IS=  5
+ Step=  564     Resid= 1.061E-06     IS=  5
+ Step=  565     Resid= 1.051E-06     IS=  5
+ Step=  566     Resid= 1.038E-06     IS=  5
+ Step=  567     Resid= 1.021E-06     IS=  5
+ Step=  568     Resid= 1.027E-06     IS=  5
+ Step=  569     Resid= 1.010E-06     IS=  5
+ Step=  570     Resid= 1.008E-06     IS=  5
+ Step=  571     Resid= 1.004E-06     IS=  5
+ Step=  572     Resid= 9.946E-07     IS=  5
+|RXRISM converged in   572 steps
+solutePotentialEnergy                      1.9769391025928032E+017   1.9769391025928438E+017  -2.1759337318416405E+004   1.6694888384545442E+002   6.2175721641750329E+002   3.0970373099953499E+003   0.0000000000000000E+000   1.3249401514194965E+003   1.2604018232828381E+004   0.0000000000000000E+000  -1.0381816546971035E+002
+rism_excessChemicalPotential              -1.0381816546991467E+002   2.0633999700863063E+006  -2.0635037882517762E+006
+rism_solventPotentialEnergy               -1.1417619614390191E+004   2.0143385357891447E+006  -2.0257561554035349E+006
+rism_partialMolarVolume                    3.5981282149318336E+004
+rism_totalParticlesBox                                               1.2354557262220116E+005   2.4710061529431821E+005
+rism_totalChargeBox                        3.9490108149200016E+000  -1.0303700756691577E+005   1.0304095657773069E+005
+rism_excessParticlesBox                                             -1.2045789623876497E+003  -2.3996878748593840E+003
+rism_excessChargeBox                       3.9490108149365981E+000   1.0046188546312998E+003  -1.0006698438163631E+003
+rism_excessParticles                                                -1.2045789623876497E+003  -2.3996878748593840E+003
+rism_excessCharge                          3.9490108149365981E+000   1.0046188546312998E+003  -1.0006698438163631E+003
+rism_KirkwoodBuff                                                   -3.6040572523745795E+004  -3.5898902267392688E+004
+rism_DCFintegral                                                    -1.0660500920212194E+008   5.3105875769007370E+007
+
+Finished MME
+
+3D-RISM processing complete.
+
+|3D-RISM memory allocation summary
+|Type          Maximum
+|Integer       0.22385 GB
+|Real         11.64941 GB
+|Logical       0.00000 GB
+|Character     0.00000 GB
+|------------------------
+|Total        11.76133 GB
+
+|Timing summary:
+|              Initialize       0.061
+|             Molec. Dyn.       0.000
+|             Normal Mode       0.000
+|             Conj. Grad.       0.000
+|                  Newton       0.000
+|-------------------------
+|                   Total       0.061
+
+|1st derivative timing summary:
+|             constraints       0.000
+|                   bonds       0.000
+|                  angles       0.000
+|                torsions       0.000
+|                pairlist       0.137
+|                 nonbond       0.012
+|               gen. Born       0.000
+|       Poisson Boltzmann       0.000
+|                 3D-RISM    3627.862
+|                   Other       0.019
+|-------------------------
+|                   Total    3628.024
+
+|MPI timing summary:
+|             egb reduct.       0.000
+|             mme reduct.       0.019
+
+|CPU Timer summary for 3D-RISM Total                      Average                           Minimum                           Maximum             
+|  3D-RISM Output                                 152.001   (  3.49%)               150.581   (  3.48%)               152.318   (  3.44%)
+|      Excess Chemical Potential                        1.228   ( 89.28%)                 1.123   ( 88.19%)                 1.370   ( 90.25%)
+|      Other                                            0.147   ( 10.72%)                 0.142   ( 11.17%)                 0.152   (  9.98%)
+|    Thermodynamics                                   1.376   (  0.03%)                 1.273   (  0.03%)                 1.518   (  0.04%)
+|      Solvation box resize                            10.071   (  0.24%)                10.013   (  0.24%)                10.149   (  0.24%)
+|          FFT                                           1335.642   ( 32.88%)              1284.453   ( 32.18%)              1403.639   ( 34.08%)
+|            Overlap                                        320.885   ( 22.08%)               297.866   ( 21.02%)               368.305   ( 24.78%)
+|            Project                                       1132.420   ( 77.91%)              1102.099   ( 77.77%)              1174.391   ( 79.03%)
+|          MDIIS Advance                                 1453.452   ( 35.78%)              1417.064   ( 35.51%)              1486.045   ( 36.08%)
+|          Other                                         1272.990   ( 31.34%)              1264.407   ( 31.68%)              1286.873   ( 31.25%)
+|        R1RISM                                        4062.083   ( 99.98%)              3991.160   ( 99.98%)              4118.653   ( 99.98%)
+|        Other                                            0.768   (  0.02%)                 0.628   (  0.02%)                 1.545   (  0.04%)
+|      RXRISM                                        4062.851   ( 96.69%)              3991.789   ( 95.72%)              4119.308   ( 96.25%)
+|        Lennard-Jones                                   20.218   ( 15.71%)                 1.082   (  1.49%)                36.720   ( 21.75%)
+|        Coulomb                                         26.721   ( 20.76%)                26.507   ( 36.57%)                27.082   ( 16.04%)
+|          Asymptotics Dcf/TCF-K                           79.088   ( 96.74%)                 3.271   ( 35.48%)               139.701   ( 99.51%)
+|          Asymptotics DCF-R                                2.657   (  3.25%)                 0.681   (  7.39%)                 5.938   (  4.23%)
+|          Other                                            0.010   (  0.01%)                 0.010   (  0.10%)                 0.010   (  0.01%)
+|        Asymptotics                                     81.755   ( 63.52%)                 9.219   ( 12.72%)               140.393   ( 83.16%)
+|        Other                                            0.020   (  0.02%)                 0.019   (  0.03%)                 0.021   (  0.01%)
+|      Potential                                      128.713   (  3.06%)                72.487   (  1.74%)               168.826   (  3.94%)
+|    Solve 3D-RISM                                 4201.934   ( 99.97%)              4170.327   ( 99.97%)              4279.578   ( 99.97%)
+|  3D-RISM                                       4203.311   ( 96.51%)              4171.679   ( 96.48%)              4281.034   ( 96.57%)
+|3D-RISM Total                                 4355.360   (100.00%)              4323.929   (100.00%)              4433.220   (100.00%)
+
