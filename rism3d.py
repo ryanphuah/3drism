@@ -104,10 +104,10 @@ mpiexec -n {n} rism3d.snglpnt.MPI --pdb {pdb_in} --prmtop {prm_in} --rst {coord_
 
 def main():
     parser= argparse.ArgumentParser(description='3D-RISM')
-    parser.add_argument('pdb_in',help='Input pdb')
+    required = parser.add_argument_group('required arguments')
+    required.add_argument('pdb_in',help='Input pdb')
     parser.add_argument('--prm_in',help='Input parameter file',default=None)
     parser.add_argument('--coord_in',help='Input coordinate file', default=None)
-
     parser.add_argument('--pdb_out',help='Output pdb name',default=None)
     parser.add_argument('--water_model',help='Water Model (cSPCE/cTIP3P) (default = cTIP3P)',default='cTIP3P')
     parser.add_argument('--dieps',help='Dielectric Constant (default = 78.44)',default=78.44)
