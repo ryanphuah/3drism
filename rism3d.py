@@ -94,13 +94,19 @@ mpiexec -n {n} rism3d.snglpnt.MPI --pdb {pdb_in} --prmtop {prm_in} --rst {coord_
 
     #placevent
     placevent_output=f'{rism3dout.split('.')[0]}_placedwaters.pdb'
+    placevemt_input = f"""
+python placevent.py g.O.1.dx 55.5 {c} > {placevent_output}
+"""
+    with open("placevent.sh", "w") as f:
+        f.write(placevemt_input)
     with open(placevent_output, "w") as f:
-        result = subprocess.run(["python","placevent.py","g.O.1.dx","55.5",str(c),">",placevent_output],stdout=f)
+        result = subprocess.run(["sh","./placevent.sh"],stdout=f)
     if result.returncode != 0:
         print("Error running Placevent:")
         print(result.stderr)
     else:
         print(f"Placevent successful. Output written to {placevent_output}")
+        os.remove("placevent.sh")
 
 def main():
     parser= argparse.ArgumentParser(description='3D-RISM')
