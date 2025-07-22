@@ -4,7 +4,7 @@ import argparse
 import subprocess
 import os
 
-def rism3d(pdb_in,prm_in=None,coord_in=None,pdb_out=None,water_model='cTIP3P',dieps=78.44,n=1):
+def rism3d(pdb_in,prm_in=None,coord_in=None,pdb_out=None,water_model='cTIP3P',dieps=78.44,n=1,c=1.5):
     if f'{pdb_in.split('.')[1]}'=='sdf':
         convertedpdb=f'{pdb_in.split('.')[0]}.pdb'
         with open(convertedpdb, "w") as f:
@@ -95,7 +95,7 @@ mpiexec -n {n} rism3d.snglpnt.MPI --pdb {pdb_in} --prmtop {prm_in} --rst {coord_
     #placevent
     placevent_output=f'{rism3dout.split('.')[0]}_placedwaters.pdb'
     with open(placevent_output, "w") as f:
-        result = subprocess.run(["python","placevent.py","g.O.1.dx","55.5",">",placevent_output],stdout=f)
+        result = subprocess.run(["python","placevent.py","g.O.1.dx","55.5",str(c),">",placevent_output],stdout=f)
     if result.returncode != 0:
         print("Error running Placevent:")
         print(result.stderr)
@@ -112,6 +112,7 @@ def main():
     parser.add_argument('--water_model',help='Water Model (cSPCE/cTIP3P) (default = cTIP3P)',default='cTIP3P')
     parser.add_argument('--dieps',help='Dielectric Constant (default = 78.44)',default=78.44)
     parser.add_argument('--n',help='Number of Cores (default = 1)',default=1)
+    parser.add_argument('--c',help='Cutoff value (default = 1.5)',default=1.5)
     args = parser.parse_args()
     rism3d(**vars(args))
 
